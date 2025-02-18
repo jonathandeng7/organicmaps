@@ -352,6 +352,9 @@ public class BookmarksListFragment extends BaseMwmRecyclerFragment<ConcatAdapter
     adapter.setSearchResults(bookmarkIds);
     adapter.notifyDataSetChanged();
     updateRecyclerVisibility();
+
+    BOOL noResults = (results.count == 0);
+    [self.tableView hideNoResultsView:noResults];
   }
 
   public void cancelSearch()

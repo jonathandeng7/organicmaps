@@ -1,0 +1,254 @@
+{
+	"BUILD_DIR" : "/Users/Jonathan/Documents/GitHub/organicmaps/omim-build-release/search/search_quality/assessment_tool/assessment_tool_autogen",
+	"CMAKE_BINARY_DIR" : "/Users/Jonathan/Documents/GitHub/organicmaps/omim-build-release",
+	"CMAKE_CURRENT_BINARY_DIR" : "/Users/Jonathan/Documents/GitHub/organicmaps/omim-build-release/search/search_quality/assessment_tool",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/Users/Jonathan/Documents/GitHub/organicmaps/search/search_quality/assessment_tool",
+	"CMAKE_EXECUTABLE" : "/opt/homebrew/bin/cmake",
+	"CMAKE_LIST_FILES" : 
+	[
+		"/Users/Jonathan/Documents/GitHub/organicmaps/search/search_quality/assessment_tool/CMakeLists.txt"
+	],
+	"CMAKE_SOURCE_DIR" : "/Users/Jonathan/Documents/GitHub/organicmaps",
+	"CROSS_CONFIG" : false,
+	"DEP_FILE" : "/Users/Jonathan/Documents/GitHub/organicmaps/omim-build-release/search/search_quality/assessment_tool/assessment_tool_autogen/deps",
+	"DEP_FILE_RULE_NAME" : "assessment_tool_autogen/timestamp",
+	"HEADERS" : 
+	[
+		[
+			"/Users/Jonathan/Documents/GitHub/organicmaps/search/search_quality/assessment_tool/context.hpp",
+			"Mu",
+			"EWIEGA46WW/moc_context.cpp",
+			null
+		],
+		[
+			"/Users/Jonathan/Documents/GitHub/organicmaps/search/search_quality/assessment_tool/edits.hpp",
+			"Mu",
+			"EWIEGA46WW/moc_edits.cpp",
+			null
+		],
+		[
+			"/Users/Jonathan/Documents/GitHub/organicmaps/search/search_quality/assessment_tool/feature_info_dialog.hpp",
+			"Mu",
+			"EWIEGA46WW/moc_feature_info_dialog.cpp",
+			null
+		],
+		[
+			"/Users/Jonathan/Documents/GitHub/organicmaps/search/search_quality/assessment_tool/helpers.hpp",
+			"Mu",
+			"EWIEGA46WW/moc_helpers.cpp",
+			null
+		],
+		[
+			"/Users/Jonathan/Documents/GitHub/organicmaps/search/search_quality/assessment_tool/main_model.hpp",
+			"Mu",
+			"EWIEGA46WW/moc_main_model.cpp",
+			null
+		],
+		[
+			"/Users/Jonathan/Documents/GitHub/organicmaps/search/search_quality/assessment_tool/main_view.hpp",
+			"Mu",
+			"EWIEGA46WW/moc_main_view.cpp",
+			null
+		],
+		[
+			"/Users/Jonathan/Documents/GitHub/organicmaps/search/search_quality/assessment_tool/model.hpp",
+			"Mu",
+			"EWIEGA46WW/moc_model.cpp",
+			null
+		],
+		[
+			"/Users/Jonathan/Documents/GitHub/organicmaps/search/search_quality/assessment_tool/result_view.hpp",
+			"Mu",
+			"EWIEGA46WW/moc_result_view.cpp",
+			null
+		],
+		[
+			"/Users/Jonathan/Documents/GitHub/organicmaps/search/search_quality/assessment_tool/results_view.hpp",
+			"Mu",
+			"EWIEGA46WW/moc_results_view.cpp",
+			null
+		],
+		[
+			"/Users/Jonathan/Documents/GitHub/organicmaps/search/search_quality/assessment_tool/sample_view.hpp",
+			"Mu",
+			"EWIEGA46WW/moc_sample_view.cpp",
+			null
+		],
+		[
+			"/Users/Jonathan/Documents/GitHub/organicmaps/search/search_quality/assessment_tool/samples_view.hpp",
+			"Mu",
+			"EWIEGA46WW/moc_samples_view.cpp",
+			null
+		],
+		[
+			"/Users/Jonathan/Documents/GitHub/organicmaps/search/search_quality/assessment_tool/search_request_runner.hpp",
+			"Mu",
+			"EWIEGA46WW/moc_search_request_runner.cpp",
+			null
+		],
+		[
+			"/Users/Jonathan/Documents/GitHub/organicmaps/search/search_quality/assessment_tool/view.hpp",
+			"Mu",
+			"EWIEGA46WW/moc_view.cpp",
+			null
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/Users/Jonathan/Documents/GitHub/organicmaps/omim-build-release/search/search_quality/assessment_tool/assessment_tool_autogen/include",
+	"MOC_COMPILATION_FILE" : "/Users/Jonathan/Documents/GitHub/organicmaps/omim-build-release/search/search_quality/assessment_tool/assessment_tool_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : 
+	[
+		"GFLAGS_IS_A_DLL=0",
+		"QT_CORE_LIB",
+		"QT_GUI_LIB",
+		"QT_NO_DEBUG",
+		"QT_OPENGLWIDGETS_LIB",
+		"QT_OPENGL_LIB",
+		"QT_WIDGETS_LIB",
+		"RELEASE",
+		"UCONFIG_USE_LOCAL",
+		"USE_FILE32API"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/Users/Jonathan/Documents/GitHub/organicmaps",
+		"/Users/Jonathan/Documents/GitHub/organicmaps/omim-build-release/3party/gflags/include",
+		"/Users/Jonathan/Documents/GitHub/organicmaps/3party/utfcpp/source",
+		"/Users/Jonathan/Documents/GitHub/organicmaps/3party/expat/expat/lib",
+		"/Users/Jonathan/Documents/GitHub/organicmaps/omim-build-release/3party/expat/expat",
+		"/Users/Jonathan/Documents/GitHub/organicmaps/omim-build-release/3party/jansson/jansson/include",
+		"/Users/Jonathan/Documents/GitHub/organicmaps/3party/icu",
+		"/Users/Jonathan/Documents/GitHub/organicmaps/3party/icu/icu/icu4c/source/common",
+		"/Users/Jonathan/Documents/GitHub/organicmaps/3party/icu/icu/icu4c/source/i18n",
+		"/Users/Jonathan/Documents/GitHub/organicmaps/3party/opening_hours",
+		"/Users/Jonathan/Documents/GitHub/organicmaps/3party/pugixml/pugixml/src",
+		"/Users/Jonathan/Documents/GitHub/organicmaps/3party/protobuf/protobuf/src",
+		"/Users/Jonathan/Documents/GitHub/organicmaps/3party/glm",
+		"/Users/Jonathan/Documents/GitHub/organicmaps/3party/freetype",
+		"/Users/Jonathan/Documents/GitHub/organicmaps/omim-build-release/3party/freetype/freetype/include",
+		"/Users/Jonathan/Documents/GitHub/organicmaps/3party/freetype/freetype/include",
+		"/Users/Jonathan/Documents/GitHub/organicmaps/3party/Vulkan-Headers/include",
+		"/Users/Jonathan/Documents/GitHub/organicmaps/3party/vulkan_wrapper",
+		"/Users/Jonathan/Documents/GitHub/organicmaps/3party/harfbuzz/harfbuzz/src",
+		"/Users/Jonathan/Documents/GitHub/organicmaps/3party/boost",
+		"/opt/homebrew/lib/QtCore.framework/Headers",
+		"/opt/homebrew/lib/QtCore.framework",
+		"/opt/homebrew/share/qt/mkspecs/macx-clang",
+		"/opt/homebrew/include",
+		"/opt/homebrew/lib/QtGui.framework/Headers",
+		"/opt/homebrew/lib/QtGui.framework",
+		"/opt/homebrew/lib/QtWidgets.framework/Headers",
+		"/opt/homebrew/lib/QtWidgets.framework",
+		"/opt/homebrew/lib/QtOpenGL.framework/Headers",
+		"/opt/homebrew/lib/QtOpenGL.framework",
+		"/opt/homebrew/lib/QtOpenGLWidgets.framework/Headers",
+		"/opt/homebrew/lib/QtOpenGLWidgets.framework",
+		"/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include",
+		"/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1",
+		"/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include",
+		"/Library/Developer/CommandLineTools/usr/include"
+	],
+	"MOC_MACRO_NAMES" : 
+	[
+		"Q_OBJECT",
+		"Q_GADGET",
+		"Q_NAMESPACE",
+		"Q_NAMESPACE_EXPORT",
+		"Q_GADGET_EXPORT",
+		"Q_ENUM_NS"
+	],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"/Library/Developer/CommandLineTools/usr/bin/c++",
+		"-std=c++20",
+		"-dM",
+		"-E",
+		"-c",
+		"/opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "/Users/Jonathan/Documents/GitHub/organicmaps/omim-build-release/search/search_quality/assessment_tool/assessment_tool_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 8,
+	"PARSE_CACHE_FILE" : "/Users/Jonathan/Documents/GitHub/organicmaps/omim-build-release/search/search_quality/assessment_tool/CMakeFiles/assessment_tool_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/opt/homebrew/share/qt/libexec/moc",
+	"QT_UIC_EXECUTABLE" : "",
+	"QT_VERSION_MAJOR" : 6,
+	"QT_VERSION_MINOR" : 8,
+	"SETTINGS_FILE" : "/Users/Jonathan/Documents/GitHub/organicmaps/omim-build-release/search/search_quality/assessment_tool/CMakeFiles/assessment_tool_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[
+			"/Users/Jonathan/Documents/GitHub/organicmaps/search/search_quality/assessment_tool/assessment_tool.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/Users/Jonathan/Documents/GitHub/organicmaps/search/search_quality/assessment_tool/context.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/Users/Jonathan/Documents/GitHub/organicmaps/search/search_quality/assessment_tool/edits.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/Users/Jonathan/Documents/GitHub/organicmaps/search/search_quality/assessment_tool/feature_info_dialog.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/Users/Jonathan/Documents/GitHub/organicmaps/search/search_quality/assessment_tool/helpers.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/Users/Jonathan/Documents/GitHub/organicmaps/search/search_quality/assessment_tool/main_model.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/Users/Jonathan/Documents/GitHub/organicmaps/search/search_quality/assessment_tool/main_view.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/Users/Jonathan/Documents/GitHub/organicmaps/search/search_quality/assessment_tool/result_view.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/Users/Jonathan/Documents/GitHub/organicmaps/search/search_quality/assessment_tool/results_view.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/Users/Jonathan/Documents/GitHub/organicmaps/search/search_quality/assessment_tool/sample_view.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/Users/Jonathan/Documents/GitHub/organicmaps/search/search_quality/assessment_tool/samples_view.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/Users/Jonathan/Documents/GitHub/organicmaps/search/search_quality/assessment_tool/search_request_runner.cpp",
+			"Mu",
+			null
+		]
+	],
+	"USE_BETTER_GRAPH" : true,
+	"VERBOSITY" : 0
+}

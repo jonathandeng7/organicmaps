@@ -1,0 +1,207 @@
+{
+	"BUILD_DIR" : "/Users/Jonathan/Documents/GitHub/organicmaps/omim-build-release/qt/qt_common/qt_common_autogen",
+	"CMAKE_BINARY_DIR" : "/Users/Jonathan/Documents/GitHub/organicmaps/omim-build-release",
+	"CMAKE_CURRENT_BINARY_DIR" : "/Users/Jonathan/Documents/GitHub/organicmaps/omim-build-release/qt/qt_common",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/Users/Jonathan/Documents/GitHub/organicmaps/qt/qt_common",
+	"CMAKE_EXECUTABLE" : "/opt/homebrew/bin/cmake",
+	"CMAKE_LIST_FILES" : 
+	[
+		"/Users/Jonathan/Documents/GitHub/organicmaps/qt/qt_common/CMakeLists.txt",
+		"/Users/Jonathan/Documents/GitHub/organicmaps/qt/qt_common/res/resources_common.qrc"
+	],
+	"CMAKE_SOURCE_DIR" : "/Users/Jonathan/Documents/GitHub/organicmaps",
+	"CROSS_CONFIG" : false,
+	"DEP_FILE" : "/Users/Jonathan/Documents/GitHub/organicmaps/omim-build-release/qt/qt_common/qt_common_autogen/deps",
+	"DEP_FILE_RULE_NAME" : "qt_common_autogen/timestamp",
+	"HEADERS" : 
+	[
+		[
+			"/Users/Jonathan/Documents/GitHub/organicmaps/qt/qt_common/helpers.hpp",
+			"Mu",
+			"EWIEGA46WW/moc_helpers.cpp",
+			null
+		],
+		[
+			"/Users/Jonathan/Documents/GitHub/organicmaps/qt/qt_common/map_widget.hpp",
+			"Mu",
+			"EWIEGA46WW/moc_map_widget.cpp",
+			null
+		],
+		[
+			"/Users/Jonathan/Documents/GitHub/organicmaps/qt/qt_common/proxy_style.hpp",
+			"Mu",
+			"EWIEGA46WW/moc_proxy_style.cpp",
+			null
+		],
+		[
+			"/Users/Jonathan/Documents/GitHub/organicmaps/qt/qt_common/qtoglcontext.hpp",
+			"Mu",
+			"EWIEGA46WW/moc_qtoglcontext.cpp",
+			null
+		],
+		[
+			"/Users/Jonathan/Documents/GitHub/organicmaps/qt/qt_common/qtoglcontextfactory.hpp",
+			"Mu",
+			"EWIEGA46WW/moc_qtoglcontextfactory.cpp",
+			null
+		],
+		[
+			"/Users/Jonathan/Documents/GitHub/organicmaps/qt/qt_common/scale_slider.hpp",
+			"Mu",
+			"EWIEGA46WW/moc_scale_slider.cpp",
+			null
+		],
+		[
+			"/Users/Jonathan/Documents/GitHub/organicmaps/qt/qt_common/spinner.hpp",
+			"Mu",
+			"EWIEGA46WW/moc_spinner.cpp",
+			null
+		],
+		[
+			"/Users/Jonathan/Documents/GitHub/organicmaps/qt/qt_common/text_dialog.hpp",
+			"Mu",
+			"EWIEGA46WW/moc_text_dialog.cpp",
+			null
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/Users/Jonathan/Documents/GitHub/organicmaps/omim-build-release/qt/qt_common/qt_common_autogen/include",
+	"MOC_COMPILATION_FILE" : "/Users/Jonathan/Documents/GitHub/organicmaps/omim-build-release/qt/qt_common/qt_common_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : 
+	[
+		"QT_CORE_LIB",
+		"QT_GUI_LIB",
+		"QT_NO_DEBUG",
+		"QT_OPENGLWIDGETS_LIB",
+		"QT_OPENGL_LIB",
+		"QT_WIDGETS_LIB",
+		"RELEASE",
+		"UCONFIG_USE_LOCAL",
+		"USE_FILE32API"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/Users/Jonathan/Documents/GitHub/organicmaps",
+		"/Users/Jonathan/Documents/GitHub/organicmaps/omim-build-release/3party/gflags/include",
+		"/Users/Jonathan/Documents/GitHub/organicmaps/3party/utfcpp/source",
+		"/Users/Jonathan/Documents/GitHub/organicmaps/3party/opening_hours",
+		"/Users/Jonathan/Documents/GitHub/organicmaps/3party/pugixml/pugixml/src",
+		"/Users/Jonathan/Documents/GitHub/organicmaps/3party/expat/expat/lib",
+		"/Users/Jonathan/Documents/GitHub/organicmaps/omim-build-release/3party/expat/expat",
+		"/Users/Jonathan/Documents/GitHub/organicmaps/omim-build-release/3party/jansson/jansson/include",
+		"/Users/Jonathan/Documents/GitHub/organicmaps/3party/icu",
+		"/Users/Jonathan/Documents/GitHub/organicmaps/3party/icu/icu/icu4c/source/common",
+		"/Users/Jonathan/Documents/GitHub/organicmaps/3party/icu/icu/icu4c/source/i18n",
+		"/Users/Jonathan/Documents/GitHub/organicmaps/3party/protobuf/protobuf/src",
+		"/Users/Jonathan/Documents/GitHub/organicmaps/3party/glm",
+		"/Users/Jonathan/Documents/GitHub/organicmaps/3party/freetype",
+		"/Users/Jonathan/Documents/GitHub/organicmaps/omim-build-release/3party/freetype/freetype/include",
+		"/Users/Jonathan/Documents/GitHub/organicmaps/3party/freetype/freetype/include",
+		"/Users/Jonathan/Documents/GitHub/organicmaps/3party/Vulkan-Headers/include",
+		"/Users/Jonathan/Documents/GitHub/organicmaps/3party/vulkan_wrapper",
+		"/Users/Jonathan/Documents/GitHub/organicmaps/3party/harfbuzz/harfbuzz/src",
+		"/Users/Jonathan/Documents/GitHub/organicmaps/3party/boost",
+		"/opt/homebrew/lib/QtCore.framework/Headers",
+		"/opt/homebrew/lib/QtCore.framework",
+		"/opt/homebrew/share/qt/mkspecs/macx-clang",
+		"/opt/homebrew/include",
+		"/opt/homebrew/lib/QtGui.framework/Headers",
+		"/opt/homebrew/lib/QtGui.framework",
+		"/opt/homebrew/lib/QtWidgets.framework/Headers",
+		"/opt/homebrew/lib/QtWidgets.framework",
+		"/opt/homebrew/lib/QtOpenGL.framework/Headers",
+		"/opt/homebrew/lib/QtOpenGL.framework",
+		"/opt/homebrew/lib/QtOpenGLWidgets.framework/Headers",
+		"/opt/homebrew/lib/QtOpenGLWidgets.framework",
+		"/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include",
+		"/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1",
+		"/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include",
+		"/Library/Developer/CommandLineTools/usr/include"
+	],
+	"MOC_MACRO_NAMES" : 
+	[
+		"Q_OBJECT",
+		"Q_GADGET",
+		"Q_NAMESPACE",
+		"Q_NAMESPACE_EXPORT",
+		"Q_GADGET_EXPORT",
+		"Q_ENUM_NS"
+	],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"/Library/Developer/CommandLineTools/usr/bin/c++",
+		"-std=c++20",
+		"-dM",
+		"-E",
+		"-c",
+		"/opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "/Users/Jonathan/Documents/GitHub/organicmaps/omim-build-release/qt/qt_common/qt_common_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : 
+	[
+		"/Users/Jonathan/Documents/GitHub/organicmaps/omim-build-release/qt/qt_common/qrc_resources_common.cpp"
+	],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 8,
+	"PARSE_CACHE_FILE" : "/Users/Jonathan/Documents/GitHub/organicmaps/omim-build-release/qt/qt_common/CMakeFiles/qt_common_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/opt/homebrew/share/qt/libexec/moc",
+	"QT_UIC_EXECUTABLE" : "",
+	"QT_VERSION_MAJOR" : 6,
+	"QT_VERSION_MINOR" : 8,
+	"SETTINGS_FILE" : "/Users/Jonathan/Documents/GitHub/organicmaps/omim-build-release/qt/qt_common/CMakeFiles/qt_common_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[
+			"/Users/Jonathan/Documents/GitHub/organicmaps/qt/qt_common/helpers.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/Users/Jonathan/Documents/GitHub/organicmaps/qt/qt_common/map_widget.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/Users/Jonathan/Documents/GitHub/organicmaps/qt/qt_common/proxy_style.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/Users/Jonathan/Documents/GitHub/organicmaps/qt/qt_common/qtoglcontext.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/Users/Jonathan/Documents/GitHub/organicmaps/qt/qt_common/qtoglcontextfactory.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/Users/Jonathan/Documents/GitHub/organicmaps/qt/qt_common/scale_slider.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/Users/Jonathan/Documents/GitHub/organicmaps/qt/qt_common/spinner.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/Users/Jonathan/Documents/GitHub/organicmaps/qt/qt_common/text_dialog.cpp",
+			"Mu",
+			null
+		]
+	],
+	"USE_BETTER_GRAPH" : true,
+	"VERBOSITY" : 0
+}

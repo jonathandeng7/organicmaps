@@ -38,6 +38,22 @@
   }
 }
 
+- (void)addScrollingEffectToLabel:(UILabel *)label {
+    dispatch_async(dispatch_get_main_queue(), ^{
+        if (label.text.length > 0) {
+            CGSize textSize = [label.text sizeWithAttributes:@{NSFontAttributeName: label.font}];
+
+            if (textSize.width > label.bounds.size.width) {
+                [UIView animateWithDuration:5.0 delay:0.5 options:(UIViewAnimationOptionRepeat | UIViewAnimationOptionCurveLinear) animations:^{
+                    label.transform = CGAffineTransformMakeTranslation(-textSize.width, 0);
+                } completion:nil];
+            }
+        }
+    });
+}
+
+
+
 #pragma mark - MWMKeyboard
 
 - (void)onKeyboardAnimation
@@ -60,12 +76,27 @@
 - (MWMSearchNoResults *)noResultsView
 {
   if (!_noResultsView)
-  {
-    _noResultsView = [MWMSearchNoResults viewWithImage:nil
-                                                 title:L(@"search_not_found")
-                                                  text:L(@"search_not_found_query")];
-  }
-  return _noResultsView;
+{
+    _noResultsView = [MWMSearchNoResults viewWithImage:nil 
+        title:L(@"search_not_found") 
+        text:L(@"search_not_found_query")];
+
+    _noResultsView.titleLabel.numberOfLines = 1;
+    _noResultsView.titleLabel.textAlignment = NSTextAlignmentLeft;
+    _noResultsView.titleLabel.adjustsFontSizeToFitWidth = NO;
+    _noResultsView.titleLabel.clipsToBounds = YES;
+
+    _noResultsView.textLabel.numberOfLines = 1;
+    _noResultsView.textLabel.textAlignment = NSTextAlignmentLeft;
+    _noResultsView.textLabel.adjustsFontSizeToFitWidth = NO;
+    _noResultsView.textLabel.clipsToBounds = YES;
+
+    [self addScrollingEffectToLabel:_noResultsView.titleLabel];
+    [self addScrollingEffectToLabel:_noResultsView.textLabel];
+}
+
+return _noResultsView;
+
 }
 
 @end

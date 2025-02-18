@@ -1,0 +1,203 @@
+{
+	"BUILD_DIR" : "/Users/Jonathan/Documents/GitHub/organicmaps/omim-build-release/openlr/openlr_match_quality/openlr_assessment_tool/openlr_assessment_tool_autogen",
+	"CMAKE_BINARY_DIR" : "/Users/Jonathan/Documents/GitHub/organicmaps/omim-build-release",
+	"CMAKE_CURRENT_BINARY_DIR" : "/Users/Jonathan/Documents/GitHub/organicmaps/omim-build-release/openlr/openlr_match_quality/openlr_assessment_tool",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/Users/Jonathan/Documents/GitHub/organicmaps/openlr/openlr_match_quality/openlr_assessment_tool",
+	"CMAKE_EXECUTABLE" : "/opt/homebrew/bin/cmake",
+	"CMAKE_LIST_FILES" : 
+	[
+		"/Users/Jonathan/Documents/GitHub/organicmaps/openlr/openlr_match_quality/openlr_assessment_tool/CMakeLists.txt"
+	],
+	"CMAKE_SOURCE_DIR" : "/Users/Jonathan/Documents/GitHub/organicmaps",
+	"CROSS_CONFIG" : false,
+	"DEP_FILE" : "/Users/Jonathan/Documents/GitHub/organicmaps/omim-build-release/openlr/openlr_match_quality/openlr_assessment_tool/openlr_assessment_tool_autogen/deps",
+	"DEP_FILE_RULE_NAME" : "openlr_assessment_tool_autogen/timestamp",
+	"HEADERS" : 
+	[
+		[
+			"/Users/Jonathan/Documents/GitHub/organicmaps/openlr/openlr_match_quality/openlr_assessment_tool/mainwindow.hpp",
+			"MU",
+			"EWIEGA46WW/moc_mainwindow.cpp",
+			null
+		],
+		[
+			"/Users/Jonathan/Documents/GitHub/organicmaps/openlr/openlr_match_quality/openlr_assessment_tool/map_widget.hpp",
+			"MU",
+			"EWIEGA46WW/moc_map_widget.cpp",
+			null
+		],
+		[
+			"/Users/Jonathan/Documents/GitHub/organicmaps/openlr/openlr_match_quality/openlr_assessment_tool/points_controller_delegate_base.hpp",
+			"MU",
+			"EWIEGA46WW/moc_points_controller_delegate_base.cpp",
+			null
+		],
+		[
+			"/Users/Jonathan/Documents/GitHub/organicmaps/openlr/openlr_match_quality/openlr_assessment_tool/segment_correspondence.hpp",
+			"MU",
+			"EWIEGA46WW/moc_segment_correspondence.cpp",
+			null
+		],
+		[
+			"/Users/Jonathan/Documents/GitHub/organicmaps/openlr/openlr_match_quality/openlr_assessment_tool/traffic_drawer_delegate_base.hpp",
+			"MU",
+			"EWIEGA46WW/moc_traffic_drawer_delegate_base.cpp",
+			null
+		],
+		[
+			"/Users/Jonathan/Documents/GitHub/organicmaps/openlr/openlr_match_quality/openlr_assessment_tool/traffic_mode.hpp",
+			"MU",
+			"EWIEGA46WW/moc_traffic_mode.cpp",
+			null
+		],
+		[
+			"/Users/Jonathan/Documents/GitHub/organicmaps/openlr/openlr_match_quality/openlr_assessment_tool/traffic_panel.hpp",
+			"MU",
+			"EWIEGA46WW/moc_traffic_panel.cpp",
+			null
+		],
+		[
+			"/Users/Jonathan/Documents/GitHub/organicmaps/openlr/openlr_match_quality/openlr_assessment_tool/trafficmodeinitdlg.h",
+			"MU",
+			"EWIEGA46WW/moc_trafficmodeinitdlg.cpp",
+			null
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/Users/Jonathan/Documents/GitHub/organicmaps/omim-build-release/openlr/openlr_match_quality/openlr_assessment_tool/openlr_assessment_tool_autogen/include",
+	"MOC_COMPILATION_FILE" : "/Users/Jonathan/Documents/GitHub/organicmaps/omim-build-release/openlr/openlr_match_quality/openlr_assessment_tool/openlr_assessment_tool_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : 
+	[
+		"GFLAGS_IS_A_DLL=0",
+		"QT_CORE_LIB",
+		"QT_GUI_LIB",
+		"QT_NO_DEBUG",
+		"QT_OPENGLWIDGETS_LIB",
+		"QT_OPENGL_LIB",
+		"QT_WIDGETS_LIB",
+		"RELEASE",
+		"UCONFIG_USE_LOCAL",
+		"USE_FILE32API"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/Users/Jonathan/Documents/GitHub/organicmaps",
+		"/Users/Jonathan/Documents/GitHub/organicmaps/omim-build-release/3party/gflags/include",
+		"/Users/Jonathan/Documents/GitHub/organicmaps/3party/utfcpp/source",
+		"/Users/Jonathan/Documents/GitHub/organicmaps/3party/opening_hours",
+		"/Users/Jonathan/Documents/GitHub/organicmaps/3party/pugixml/pugixml/src",
+		"/Users/Jonathan/Documents/GitHub/organicmaps/3party/expat/expat/lib",
+		"/Users/Jonathan/Documents/GitHub/organicmaps/omim-build-release/3party/expat/expat",
+		"/Users/Jonathan/Documents/GitHub/organicmaps/omim-build-release/3party/jansson/jansson/include",
+		"/Users/Jonathan/Documents/GitHub/organicmaps/3party/icu",
+		"/Users/Jonathan/Documents/GitHub/organicmaps/3party/icu/icu/icu4c/source/common",
+		"/Users/Jonathan/Documents/GitHub/organicmaps/3party/icu/icu/icu4c/source/i18n",
+		"/Users/Jonathan/Documents/GitHub/organicmaps/3party/protobuf/protobuf/src",
+		"/Users/Jonathan/Documents/GitHub/organicmaps/3party/glm",
+		"/Users/Jonathan/Documents/GitHub/organicmaps/3party/freetype",
+		"/Users/Jonathan/Documents/GitHub/organicmaps/omim-build-release/3party/freetype/freetype/include",
+		"/Users/Jonathan/Documents/GitHub/organicmaps/3party/freetype/freetype/include",
+		"/Users/Jonathan/Documents/GitHub/organicmaps/3party/Vulkan-Headers/include",
+		"/Users/Jonathan/Documents/GitHub/organicmaps/3party/vulkan_wrapper",
+		"/Users/Jonathan/Documents/GitHub/organicmaps/3party/harfbuzz/harfbuzz/src",
+		"/Users/Jonathan/Documents/GitHub/organicmaps/3party/boost",
+		"/opt/homebrew/lib/QtCore.framework/Headers",
+		"/opt/homebrew/lib/QtCore.framework",
+		"/opt/homebrew/share/qt/mkspecs/macx-clang",
+		"/opt/homebrew/include",
+		"/opt/homebrew/lib/QtGui.framework/Headers",
+		"/opt/homebrew/lib/QtGui.framework",
+		"/opt/homebrew/lib/QtWidgets.framework/Headers",
+		"/opt/homebrew/lib/QtWidgets.framework",
+		"/opt/homebrew/lib/QtOpenGL.framework/Headers",
+		"/opt/homebrew/lib/QtOpenGL.framework",
+		"/opt/homebrew/lib/QtOpenGLWidgets.framework/Headers",
+		"/opt/homebrew/lib/QtOpenGLWidgets.framework",
+		"/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include",
+		"/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1",
+		"/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include",
+		"/Library/Developer/CommandLineTools/usr/include"
+	],
+	"MOC_MACRO_NAMES" : 
+	[
+		"Q_OBJECT",
+		"Q_GADGET",
+		"Q_NAMESPACE",
+		"Q_NAMESPACE_EXPORT",
+		"Q_GADGET_EXPORT",
+		"Q_ENUM_NS"
+	],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"/Library/Developer/CommandLineTools/usr/bin/c++",
+		"-std=c++20",
+		"-dM",
+		"-E",
+		"-c",
+		"/opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "/Users/Jonathan/Documents/GitHub/organicmaps/omim-build-release/openlr/openlr_match_quality/openlr_assessment_tool/openlr_assessment_tool_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 8,
+	"PARSE_CACHE_FILE" : "/Users/Jonathan/Documents/GitHub/organicmaps/omim-build-release/openlr/openlr_match_quality/openlr_assessment_tool/CMakeFiles/openlr_assessment_tool_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/opt/homebrew/share/qt/libexec/moc",
+	"QT_UIC_EXECUTABLE" : "/opt/homebrew/share/qt/libexec/uic",
+	"QT_VERSION_MAJOR" : 6,
+	"QT_VERSION_MINOR" : 8,
+	"SETTINGS_FILE" : "/Users/Jonathan/Documents/GitHub/organicmaps/omim-build-release/openlr/openlr_match_quality/openlr_assessment_tool/CMakeFiles/openlr_assessment_tool_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[
+			"/Users/Jonathan/Documents/GitHub/organicmaps/openlr/openlr_match_quality/openlr_assessment_tool/main.cpp",
+			"MU",
+			null
+		],
+		[
+			"/Users/Jonathan/Documents/GitHub/organicmaps/openlr/openlr_match_quality/openlr_assessment_tool/mainwindow.cpp",
+			"MU",
+			null
+		],
+		[
+			"/Users/Jonathan/Documents/GitHub/organicmaps/openlr/openlr_match_quality/openlr_assessment_tool/map_widget.cpp",
+			"MU",
+			null
+		],
+		[
+			"/Users/Jonathan/Documents/GitHub/organicmaps/openlr/openlr_match_quality/openlr_assessment_tool/segment_correspondence.cpp",
+			"MU",
+			null
+		],
+		[
+			"/Users/Jonathan/Documents/GitHub/organicmaps/openlr/openlr_match_quality/openlr_assessment_tool/traffic_mode.cpp",
+			"MU",
+			null
+		],
+		[
+			"/Users/Jonathan/Documents/GitHub/organicmaps/openlr/openlr_match_quality/openlr_assessment_tool/traffic_panel.cpp",
+			"MU",
+			null
+		],
+		[
+			"/Users/Jonathan/Documents/GitHub/organicmaps/openlr/openlr_match_quality/openlr_assessment_tool/trafficmodeinitdlg.cpp",
+			"MU",
+			null
+		]
+	],
+	"UIC_OPTIONS" : [],
+	"UIC_SEARCH_PATHS" : [],
+	"UIC_SKIP" : [],
+	"UIC_UI_FILES" : [],
+	"USE_BETTER_GRAPH" : true,
+	"VERBOSITY" : 0
+}
